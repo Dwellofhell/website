@@ -3,6 +3,7 @@ from random import choice
 
 app = Flask(__name__)
 title = ['Flask', 'Как интересно', 'Ваши предложения', 'Химия', '']
+menu = []
 
 
 @app.route('/')
