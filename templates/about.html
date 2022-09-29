@@ -6,5 +6,10 @@
 </head>
 <body>
 <h1>Это мой сайт</h1>
+<ul>
+  {% for m in menu1 %}
+   <li>{{m.name}}</li>
+    {% endfor %}
+</ul>
 </body>
 </html>

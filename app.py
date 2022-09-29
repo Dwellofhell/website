@@ -3,19 +3,19 @@ from random import choice
 
 app = Flask(__name__)
 title = ['Flask', 'Как интересно', 'Ваши предложения', 'Химия', '']
-menu = []
+menu = [{'name': 'Главная', 'url': '/'}, {'name': 'Помощь', 'url': 'help'}, {'name': 'О сайте', 'url': 'about'}]
 
 
 @app.route('/')
 @app.route('/index/')
 def hello():
     user = {'username': 'DwellerOfHell'}
-    return render_template('index.html', user=user, title = choice(title))
+    return render_template('index.html', user=user, title = choice(title), menu = menu)
 
 
 @app.route('/help/')
 def help():
-    return render_template('help.html', title = title)
+    return render_template('help.html', title = title, menu = menu)
 
 @app.route('/<int:id>')
 def users(id):
@@ -35,7 +35,7 @@ def age(age):
 
 @app.route('/about/')
 def about():
-    return render_template('about.html')
+    return render_template('about.html', menu = menu)
 
 if __name__ == '__main__':
     app.run(debug=True)
