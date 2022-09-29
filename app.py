@@ -2,7 +2,7 @@ from flask import Flask, render_template
 from random import choice
 
 app = Flask(__name__)
-title = ['Flask', 'Как интересно', 'Ваши предложения', 'Химия', '']
+title = ['Flask', 'Как интересно', 'Ваши предложения', 'Химия', 'a']
 menu = [{'name': 'Главная', 'url': '/'}, {'name': 'Помощь', 'url': 'help'}, {'name': 'О сайте', 'url': 'about'}]
 
 
