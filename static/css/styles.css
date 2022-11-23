@@ -1,0 +1,25 @@
+html, body {margin:0;
+padding: 0;
+background-color: #b7babe;
+font-family: Arial
+}
+h1 {padding:10px;}
+ul.mainmenu {
+list-style:none;
+background: #b7babe;
+height:60px;
+margin:0px;
+padding:0px;
+color:#fdc073;
+font-size:26px;
+overflow:hidden;
+}
+ul.mainmenu li {
+float:left;
+margin: 10px 60px 0px 50px
+}
+ul.mainmenu li.last {
+float:right;
+}
+ul.mainmenu a { color: #191b1d; text-decoration:none;}
+ul.mainmenu a:hover { color: #ffffff; }
