@@ -20,6 +20,7 @@ def create_db():
 if __name__ == '__main__':
     db = connect_db()
     dbase = FlaskDataBase(db)
-    print(dbase.addmenu('Главная', '/index_bd'))
-    #print(dbase.dellmenu())
+    print(dbase.addmenu('Главная', 'index_db'))
+    print(dbase.addmenu('Добавить статью', 'add_post'))
+    # print(dbase.dellmenu())
     print(create_db.__doc__)

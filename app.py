@@ -1,3 +1,4 @@
+#C:\Users\r1212\AppData\Local\Yandex\YandexBrowser\User Data\Default\Network
 import datetime
 import sqlite3
 
@@ -19,7 +20,7 @@ app.config.update(dict(DATABASE=os.path.join(app.root_path, 'flask.db')))
 title = ['Flask', 'Как интересно', 'Ваши предложения', 'Химия', '']
 menu = [{'name': 'Главная', 'url': '/'}, {'name': 'Помощь', 'url': 'help'}, {'name': 'О приложении', 'url': 'about'},
         {'name': 'Таблица', 'url': 'table'}, {'name': 'Авторизация', 'url': 'login'},
-        {'name': 'Главная БД', 'url': 'index_bd'}]
+        {'name': 'Главная БД', 'url': '/db/index_db'}]
 
 
 def connect_db():
@@ -42,11 +43,17 @@ def close_db(error):
         g.link_db.close()
 
 
-@app.route('/index_bd')
-def index_bd():
+@app.route('/db/index_db')
+def index_db():
     db = get_db()
     db = FlaskDataBase(db)
-    return render_template('index_bd.html', menu=[])
+    return render_template('index_bd.html', menu=db.getmenu())
+
+@app.route('/db/addpost')
+def add_post():
+    db = get_db()
+    db = FlaskDataBase(db)
+    return render_template('index_bd.html', menu=db.getmenu())
 
 
 @app.route('/index')
