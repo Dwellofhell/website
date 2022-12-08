@@ -5,9 +5,9 @@
 <div class="flash {{cat}}"> {{msg}}</div>
 {% endfor %}
 <form action="{{url_for('add_post')}}" method="post" class="from-contact">
-    <p><label>   Название статьи</label> <input type="text" name="name" value="" required></p>
+    <p><label>   Название статьи</label><input type="text" name="name" value="" required></p>
     <p><label>   Текст статьи</label></p>
-    <p><textarea name="post" rows="12" cols="50">  </textarea>  </p>
-    <p><input type="submit" value="Добавить">  </p>
+    <p><textarea name="post" rows="12" cols="50">  </textarea></p>
+    <p><input type="submit" value="Добавить"></p>
 </form>
 {% endblock %}
