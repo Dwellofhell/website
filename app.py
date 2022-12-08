@@ -53,7 +53,7 @@ def index_db():
 def add_post():
     db = get_db()
     db = FlaskDataBase(db)
-    return render_template('index_bd.html', menu=db.getmenu())
+    return render_template('addpost.html', menu=db.getmenu())
 
 
 @app.route('/index')
