@@ -1,8 +1,7 @@
-#C:\Users\r1212\AppData\Local\Yandex\YandexBrowser\User Data\Default\Network
 import datetime
 import sqlite3
 
-from flask import Flask, render_template, session, redirect, url_for, request, abort, g
+from flask import Flask, render_template, session, redirect, url_for, request, abort, g, flash
 from random import choice
 
 from config import Config
@@ -19,7 +18,7 @@ app.config.update(dict(DATABASE=os.path.join(app.root_path, 'flask.db')))
 # print(*app.config.items(), sep='\n')
 title = ['Flask', 'Как интересно', 'Ваши предложения', 'Химия', '']
 menu = [{'name': 'Главная', 'url': '/'}, {'name': 'Помощь', 'url': 'help'}, {'name': 'О приложении', 'url': 'about'},
-        {'name': 'Таблица', 'url': 'table'}, {'name': 'Авторизация', 'url': 'login'},
+         {'name': 'Авторизация', 'url': 'login'},
         {'name': 'Главная БД', 'url': '/db/index_db'}]
 
 
@@ -47,12 +46,23 @@ def close_db(error):
 def index_db():
     db = get_db()
     db = FlaskDataBase(db)
-    return render_template('index_bd.html', menu=db.getmenu())
+    return render_template('index_db.html', menu=db.getmenu())
 
-@app.route('/db/addpost')
+
+@app.route('/db/add-post', methods=["POST", "GET"])
 def add_post():
     db = get_db()
     db = FlaskDataBase(db)
+    if request.method == "POST":
+        if len(request.form['name']) > 3 and 10 < len(request.form['post']) < 2 ** 20:
+            res = db.addPost(request.form['name'], request.form['post'], request.form['url'])
+            if not res :
+                flash('Ошибка добавления статьи', category='error')
+            else:
+                flash('Cтатья добавлена', category='success')
+        else:
+            flash('Ошибка добавления статьи', category='error')
+
     return render_template('addpost.html', menu=db.getmenu())
 
 

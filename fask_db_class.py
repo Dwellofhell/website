@@ -1,4 +1,6 @@
+import math
 import sqlite3
+import time
 
 
 class FlaskDataBase:
@@ -34,3 +36,19 @@ class FlaskDataBase:
             print('Ошибка получения меню БД')
 
         return []
+
+    def addPost(self, title, text, url):
+        try:
+            self.__cur.execute("SELECT COUNT() as 'count' FROM post WHERE url LIKE ?", (url,))
+            res = self.__cur.fetchone()
+            if res['count'] > 0:
+                print('Cтатья с таким url уже существует')
+                return False
+            tm = math.floor(time.time())
+            self.__cur.execute("INSERT INTO post VALUES (NULL, ?, ?, ?, ?)", (title, text, url, tm))
+            self.__db.commit()
+
+        except sqlite3.Error as e:
+            print('Ошибка добавления статьи в БД', str(e))
+            return False
+        return True
