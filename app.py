@@ -46,7 +46,17 @@ def close_db(error):
 def index_db():
     db = get_db()
     db = FlaskDataBase(db)
-    return render_template('index_db.html', menu=db.getmenu())
+    return render_template('index_db.html', menu=db.getmenu(), posts=db.getPosts())
+
+@app.route('/db/<alias>')
+def showPost(alias):
+    db = get_db()
+    db = FlaskDataBase(db)
+    title, post = db.getPosts(alias)
+    if not title:
+        abort(404)
+    return render_template('post.html',menu=db.getmenu(),title=title, post=post)
+
 
 
 @app.route('/db/add-post', methods=["POST", "GET"])

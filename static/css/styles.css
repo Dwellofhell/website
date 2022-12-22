@@ -23,3 +23,23 @@ float:right;
 }
 ul.mainmenu a { color: #191b1d; text-decoration:none;}
 ul.mainmenu a:hover { color: #ffffff; }
+
+ul.list-post {
+list-style:none;
+margin:0;
+padding:0;
+max-width: 600px;
+}
+ul.list-post li{
+margin: 20p 0 0 0;
+border: 1px solid #eee;
+}
+ul.list-post .title {
+margin: 0;
+padding: 5px;
+background: #eee
+}
+ul.list-post .annonce {
+margin: 0;
+padding: 10px 5px 10px 5px;
+}
