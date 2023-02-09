@@ -52,7 +52,7 @@ def index_db():
 def showPost(alias):
     db = get_db()
     db = FlaskDataBase(db)
-    title, post = db.getPosts(alias)
+    title, post = db.getPost(alias)
     if not title:
         abort(404)
     return render_template('post.html',menu=db.getmenu(),title=title, post=post)
@@ -164,6 +164,8 @@ def delete_exit():
     if session.get('user_logged', False):
         del session['user_logged']
     return redirect(url_for('login'))
+
+
 
 
 if __name__ == '__main__':
