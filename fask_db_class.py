@@ -48,7 +48,7 @@ class FlaskDataBase:
                 print('Cтатья с таким url уже существует')
                 return False
             tm = math.floor(time.time())
-            self.__cur.execute("INSERT INTO posts VALUES (NULL, ?, ?, ?, ?)", (title, text, url, tm))
+            self.__cur.execute("INSERT INTO post VALUES (NULL, ?, ?, ?, ?)", (title, text, url, tm))
             self.__db.commit()
 
         except sqlite3.Error as e:
