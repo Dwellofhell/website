@@ -1,0 +1,623 @@
+/* ================ КОММЕНТАРИИ ================= */
+div.comments {
+}
+div.comments div.ttl {
+	font-size: 30px;
+	line-height: 30px;
+	height: 35px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	color: #F11A36;
+}
+div.comments div.ttl span.comments_count {
+	display: inline-block;
+	color: #808080;
+	font-size: 20px;
+	font-weight: 600;
+	vertical-align: top;
+	margin: 2px 0 0 10px;
+}
+div.comments div.comments_body {
+	background: #fff;
+	padding: 30px 90px 40px 30px;
+}
+div.comments div.comments_start_info {
+	text-align: center;
+	margin-right: -60px;
+	font-weight: 600;
+}
+div.comments div.login_block {
+	text-align: center;
+	margin: 30px 0 0 0;
+}
+div.comments div.login_block a {
+	color: #2e96db;
+	margin: 0 10px;
+}
+div.comments div.login_block a:hover {color: #0063a9;} 
+
+div.comments span.social_login {
+	display: inline-block;
+	height: 32px;
+}
+div.comments span.social_login a.social {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-image: url(/-Engine-/SiteTemplates/igromania/images/login_social.png);
+	background-repeat: no-repeat;
+	margin: 0 3px;
+	vertical-align: middle;
+}
+div.comments span.social_login a.social.vk {background-position: 0px 0px;}
+div.comments span.social_login a.social.fb {background-position: -32px 0px;}
+div.comments span.social_login a.social.mru {background-position: -64px 0px;}
+div.comments span.social_login a.social.ok {background-position: -96px 0px;}
+div.comments span.social_login a.social.gplus {background-position: -128px 0px;}
+
+/* шапка с тулзами для комментов */
+div.comments div.comments_body_header {
+	margin: 0 0 40px 60px;
+	min-height: 30px;
+	height: auto !important;
+	color: #808080;
+	font-size: 12px;
+}
+div.comments div.comments_body_header a {
+	color: #808080;
+	margin-right: 8px;
+}
+div.comments div.comments_body_header a:hover,
+div.comments div.comments_body_header a.on {
+	color: #2e96db;
+}
+div.comments div.comments_body_header a:first-child {
+	margin-left: 10px;
+}
+div.comments div.comments_body_header a.btn.blue_btn {
+	color: #2e96db;
+	float: right;
+	width: 300px;
+}
+div.comments div.comments_body_header a.btn.blue_btn:hover {color: #fff;}
+
+/* */
+div.comments div.comment_block {
+	margin-bottom: 25px;
+}
+div.comments div.comment_block.lev2,
+div.comments div.comment_responses {
+	margin-left: 30px;
+}
+div.comments div.comment_block div.comment_avatar {
+	float: left;
+	width: 60px;
+}
+div.comments  div.comment_avatar div.uname_id {
+	font-size: 9px; 
+	color: #dedede; 
+	width: 45px; 
+	text-align: center;
+}
+div.comments  div.comment_avatar:hover div.uname_id {color: #555;}
+
+div.comments div.comment_avatar img {
+	width: 43px;
+	height: 43px;
+	display: block;
+	border: 1px solid #dedede;
+}
+div.comments div.comment_box {
+	margin-left: 60px;
+	padding-bottom: 15px;
+	min-height: 50px;
+	height: auto !important;
+	border-bottom: 1px solid #dedede;
+}
+
+/* шапка комментария, лайки */
+div.comments div.comment_head {
+	margin-bottom: 0px;
+}
+div.comments div.comment_head .uname {
+	font-weight: 700;
+	font-size: 16px;
+	color: #000;
+	margin-right: 15px;
+}
+div.comments div.comment_head .uname.moderName {
+	color: #F11A36;
+}
+div.comments div.comment_head .uname:hover {
+	color: #F11A36;
+}
+div.comments div.comment_head .comment_date {
+	color: #808080;
+	font-size: 12px;
+}
+div.comments div.comment_head div.comment_likes {
+	float: right;
+	font-size: 12px;
+	font-weight: 700;
+	color: #808080;
+}
+
+.icon {
+ display: inline-block;
+ background-image: url(/-Engine-/SiteTemplates/igromania/images/sprites.png);
+ background-repeat: no-repeat;
+}
+
+div.comments div.comment_likes .icon.unlike {
+	width: 18px;
+	height: 17px;
+	background-position: -179px 0px;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+div.comments div.comment_likes .icon.unlike.empty {background-position: -161px 0px;}
+div.comments div.comment_likes .icon.unlike:hover {background-position: -197px 0px;}
+div.comments div.comment_likes .icon.unlike.me {background-position: -197px 0px;}
+
+div.comments div.comment_likes .icon.like {
+	width: 18px;
+	height: 17px;
+	background-position: -233px 0px;
+	margin-left: 5px;
+	margin-top: -2px;
+	vertical-align: top;
+}
+div.comments div.comment_likes .icon.like.empty {background-position: -215px 0px;}
+div.comments div.comment_likes .icon.like:hover {background-position: -251px 0px;}
+div.comments div.comment_likes .icon.like.me {background-position: -251px 0px;}
+
+div.comments div.comment_likes div.unlike_count {
+	float: left;
+	position: relative;
+	color: #F11A36;
+	margin-left: 15px;
+}
+div.comments div.comment_likes div.like_count {
+	float: left;
+	position: relative;
+	color: #2FB414;
+	margin-left: 15px;
+}
+
+/* тело комментария */
+div.comments div.comment_post {
+	font-size: 15px;
+	line-height: 22px;
+	margin-top: 15px;
+}
+div.comments div.comment_post div.comment_quote,
+div.comments div.comment_post em {
+	background: #EFEFEF url(/-Engine-/SiteTemplates/igromania/images/quote_mark.png) no-repeat right 8px;
+	padding: 16px 16px 18px 16px;
+	font-size: 12px;
+	font-weight: 400;
+	color: #000;
+	line-height: 16px;
+	margin: 10px 0 15px 0;
+	display: block;
+}
+div.comments div.comment_post a.uname {
+	color: #808080;
+	font-weight: 600;
+	margin-right: 5px;
+	text-decoration: none;
+}
+div.comments div.comment_quote_uname,
+div.comments div.comment_post em b.qname {
+	font-size: 12px;
+	color: #808080;
+	margin-bottom: 7px;
+}
+div.comments div.comment_post a {
+	text-decoration: underline;
+}
+
+/* модераторские опции */
+div.comments div.comment_moderator_block {
+	margin-top: 7px;
+}
+div.comments div.comment_moderator_block  a {
+	font-size: 12px;
+	margin-right: 10px;
+	color: #2e96db;
+	font-weight: 400;
+}
+div.comments div.comment_moderator_block  a:hover {	color: #0063a9;}
+div.comments div.comment_moderator_block  a.marked {color: #F11A36; font-weight: 600;}
+div.comment_moderator_block .moderPanelEx {
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+}
+div.comment_moderator_block .moderPanelEx > div {
+	display: none;
+	position: absolute;
+	background-color: #ffffff;
+	padding: 4px;
+	border: 1px solid #ccc;
+	width: 250px;
+}
+div.comment_moderator_block .moderPanelEx > div a.closePanel {
+	color: #000;
+    text-align: right;
+    float: right;
+    display: initial;
+    margin: 0;
+}
+div.comment_moderator_block .moderPanelEx > div a {
+    display: block;
+    margin-top: 2px;
+    border-bottom: 1px solid #CCC;
+}
+
+div.comments .icon.banned {
+	width: 28px;
+	height: 28px;
+	background-position: -78px -74px;
+	vertical-align: top;
+	margin: -4px 10px 0 0;
+}
+
+div.comments div.like_ulist {
+	display: ;
+	position: absolute;
+	left: 100%;
+	top: -15px;
+	white-space: nowrap;
+	z-index: 25;
+	background: #EFEFEF;
+	padding: 10px 15px;
+	margin-left: 15px;
+}
+div.comments div.unlike_count:hover div.like_ulist, 
+div.comments div.like_count:hover div.like_ulist {
+	/*display: block;*/
+}
+div.comments div.like_ulist .icon.ulist_tail {
+	position: absolute;
+	width: 9px;
+	height: 18px;
+	background-position: -269px 0px;
+	left: -9px;
+	top: 15px;
+}
+div.comments .icon.uname_profile {
+	width: 12px;
+	height: 12px;
+	background-position: -278px 0px;
+	margin-right: 5px;
+}
+div.comments div.like_ulist  a {
+	color: #808080;
+	font-weight: 300;
+	line-height: 22px;
+}
+div.comments div.like_ulist  a:hover {color: #2e96db;} 
+
+/* инструменты комментария - ответ, цитата, жалоба */
+div.comments div.comment_tools {
+	padding-top: 15px;
+}
+div.comments div.comment_tools a {
+	font-size: 12px;
+	margin-right: 15px;
+	color: #2e96db;
+	font-weight: 400;
+}
+div.comments div.comment_tools a:hover,
+div.comments div.comment_tools a.on {
+	color: #0063a9;
+}
+div.comments div.comment_tools a.complain {
+	float: right;
+	color: #dedede;
+}
+div.comments div.comment_tools a.complain:hover {color: #F11A36;}
+
+/* pages */
+div.pages {
+	margin: 25px 0;
+}
+div.pages img.ajaxload {
+	margin: 1px 0px 1px 16px;
+    vertical-align: top;
+	display: none;
+}
+div.pages a,
+div.pages span  {
+	margin: 0 8px;
+	font-weight: 600;
+	color: #808080;
+	font-size: 12px;
+}
+div.pages a:first-child {margin-left: 0px;}
+div.pages a:last-child {margin-right: 0px;}
+
+div.pages a:hover,
+div.pages a.on {
+	color: #F11A36;
+}
+div.pages a .icon.prev_page {
+	width: 9px;
+	height: 15px;
+	background-position: -290px 0px;
+	vertical-align: top;
+	margin-top: 3px;
+}
+div.pages a span.icon.next_page {
+	width: 9px;
+	height: 15px;
+	background-position: -308px 0px;
+	vertical-align: top;
+	margin-top: 3px;
+}
+div.pages a.inactive {cursor: default;}
+div.pages a.inactive .icon.prev_page,
+div.pages a.inactive .icon.next_page {
+	opacity: 0.30;
+	-moz-opacity: 0.30;
+	-webkit-opacity: 0.30;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=30);
+}
+div.pages input.inp_page {
+	display: inline-block;
+	width: 33px;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid #BEBEBE;
+	text-align: center;
+	color: #808080;
+	font-size: 12px;
+	vertical-align: top;
+	margin: 0 0 0 5px;
+}
+
+/* more comments */
+div.comments div.more_comments {
+	text-align: center;
+	font-size: 13px;
+	color: #2e96db;
+	font-weight: 600;
+}
+div.comments div.more_comments a:hover {
+	color: #0063a9;
+}
+div.comments div.more_comments .icon.expand {
+	width: 11px;
+	height: 7px;
+	background-position: -326px 0px;
+	margin-left: 8px;
+}
+
+/* предупреждение */
+div.comments div.warn_box {
+	background: #FBD0D6 url(/-Engine-/SiteTemplates/igromania/images/warn_sign.png) no-repeat 30px 13px;
+	margin: 30px -90px 30px -30px;
+	height: 60px;
+	line-height: 60px;
+	padding: 0 30px 0 90px;
+	color: #b51e32;
+	font-size: 14px;
+	font-weight: 600;
+}
+div.comments div.warn_box .icon.close {
+	float: right;
+	width: 10px;
+	height: 10px;
+	background-position: -96px -14px;
+	margin-top: 25px;
+}
+
+
+/* форма ответа */
+div.comments div.comment_box div.fast_replay {
+	
+}
+div.comments div.postcomment_block {
+	margin: 30px 0;
+}
+div.comments div.postcomment_block div.postcomment_avatar {
+	float: left;
+	width: 60px;
+}
+div.comments div.postcomment_block div.postcomment_box {
+	margin-left: 60px;
+	padding-bottom: 15px;
+	/*min-height: 50px;
+	height: auto !important;*/
+}
+div.comments div.postcomment_box div.postcomment_form_box {
+	position: relative;
+	border: 1px solid #dedede;
+	/*height: 200px;*/
+	margin-bottom: 10px;
+}
+div.comments div.postcomment_form_box div.editor_btns {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	height: 23px;
+	border-top: 1px solid #dedede
+}
+div.comments div.editor_btns a.edit_btn {
+	float: left;
+	display: block;
+	width: 23px;
+	height: 23px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 23px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #bfbfbf;
+	border-right: 1px solid #dedede
+}
+div.comments div.editor_btns a.edit_btn.ital {
+	font-style: italic;
+}
+div.comments div.editor_btns a.edit_btn:hover {
+	color: #000;
+	background: #dedede;
+}
+div.comments div.postcomment_form_box textarea.post_comm {
+ width: 630px;
+ height: 145px;
+ margin: 15px 0 25px 15px;
+ border: 1px solid #fff;
+ font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+ font-size: 14px;
+ resize: vertical;
+}
+
+
+/* стили для плейсхолдера поиска */
+textarea.post_comm::-webkit-input-placeholder {color:#dedede;}
+textarea.post_comm::-moz-placeholder          {color:#dedede;}/* Firefox 19+ */
+textarea.post_comm:-moz-placeholder           {color:#dedede;}/* Firefox 18- */
+textarea.post_comm:-ms-input-placeholder      {color:#dedede;}
+
+div.comments div.postcomment_block div.postcomment_inf {
+	color: #bfbfbf;
+	font-size: 12px;
+	line-height: 16px;
+}
+div.comments div.postcomment_block div.postcomment_inf a {text-decoration: underline;}
+div.comments div.postcomment_block div.postcomment_inf a:hover {text-decoration: none;}
+
+div.comments div.postcomment_tools {
+	margin-top: 20px;
+}
+div.comments div.postcomment_tools  a.blue_btn {
+	width: 190px;
+	margin-right: 30px;
+}
+div.comments div.postcomment_tools a.icon.attache  {
+	width: 29px;
+	height: 28px;
+	vertical-align: top;
+	margin-right: 10px;
+}
+div.comments div.postcomment_tools a.icon.attache.attache_photo {
+	background-position: -166px -82px;
+}
+div.comments div.postcomment_tools a.icon.attache.attache_video {
+	background-position: -137px -82px;
+}
+
+div.comments  div.fast_replay div.postcomment_block {
+	margin-bottom: 15px;
+}
+div.comments div.comment_block  div.fast_replay textarea.post_comm {
+	width: 94%;
+}
+div.comments div.comment_block.lev2  div.fast_replay textarea.post_comm {
+	width: 94%;
+}
+/* */
+
+
+
+/* ========== ЗАГРУЗКА ========= */
+
+/* upload */
+div.upload {
+	position: absolute;
+	width: 480px;
+	height: 290px;
+	background: #fff;
+	left: 50%;
+	margin-left: -240px;
+	top: 50%;
+	margin-top: -145px;
+	z-index: 100;
+}
+div.upload.v2 {
+	height: 160px;
+	margin-top: -80px;
+}
+div.upload div.upload_in {
+	position: relative;
+	padding: 50px 25px 0 25px;
+	background: #fff;
+	text-align: center;
+}
+div.upload.v2 div.upload_in {
+	position: relative;
+	padding: 10px 25px 0 25px;
+	background: #fff;
+	text-align: center;
+}
+
+div.upload div.upload_in a.btn.green_btn {
+	width: 270px;
+}
+div.upload div.upload_info {
+	font-size: 12px;
+	color: #bfbfbf;
+	margin: 10px 0;
+}
+div.upload div.upload_info1 {
+	font-size: 14px;
+	color: #000;
+	font-weight: 600;
+	margin: 10px 0;
+}
+div.upload div.sep {
+	border-top: 1px solid #dedede;
+	height: 1px;
+	margin: 20px 0;
+}
+div.upload div.upload_inpbox,
+div.upload_video div.upload_inpbox {
+	text-align: center;
+	margin: 20px 0;
+}
+div.upload input.upload_inp,	
+div.upload_video input.upload_inp {	
+	display: inline-block;
+	width: 220px;
+	height: 38px;
+	border: 1px solid #dedede;
+	padding: 0 10px;
+	vertical-align: top;
+}
+div.upload a.btn_ok,
+div.upload_video a.btn_ok {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: #2FB414;
+	vertical-align: top;
+	margin-left: -3px;
+	cursor: pointer;
+}
+
+/* стили для плейсхолдера загрузки */
+input.upload_inp::-webkit-input-placeholder {color:#bfbfbf;}
+input.upload_inp::-moz-placeholder          {color:#bfbfbf;}/* Firefox 19+ */
+input.upload_inp:-moz-placeholder           {color:#bfbfbf;}/* Firefox 18- */
+input.upload_inp:-ms-input-placeholder      {color:#bfbfbf;}
+
+div.upload a.btn_ok .icon.icon.oke  {
+	width: 15px;
+	height: 10px;
+	background-position: -106px -13px;
+	vertical-align: top;
+	margin-top: 15px;
+}
+div.upload a.icon.close,
+div.upload_video a.icon.close  {
+	width: 10px;
+	height: 10px;
+	background-position: -96px -14px;
+	position: absolute;
+	top: -10px;
+	right: -12px;
+	z-index: 101;
+}

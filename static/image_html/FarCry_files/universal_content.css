@@ -1,0 +1,1303 @@
+/* страница статьи - стили для редактора */
+
+div.universal_content>div{margin: 10px 0 15px 0;}
+div.universal_content>div.vn-player{margin:auto!important;margin-bottom:8px!important;}
+div.universal_content div.clearfix {margin: 0;}
+
+div.universal_content ul,
+div.universal_content ol {
+	margin: 0 0 16px 48px;
+}
+div.universal_content>ul,
+div.universal_content>ol {
+	margin: 0 0 0 48px;
+}
+div.universal_content div.content_sep {
+	margin: 20px 0;
+	height: 1px;
+	border-top: 1px solid #DBDBDB;
+}
+div.universal_content h1 {
+	font-size: 30px;
+	line-height: 32px;
+	margin: 25px 0 20px 0;
+}
+div.universal_content h2 {
+	font-size: 24px;
+	line-height: 28px;
+	margin: 25px 0 20px 0;
+}
+div.universal_content h3 {
+	font-size: 20px;
+	line-height: 24px;
+	margin: 25px 0 20px 0;
+}
+div.page_video_content h4 {
+	font-size: 18px;
+	line-height: 24px;
+	margin: 15px 0 10px 0;
+}
+div.page_video_content h5 {
+	font-size: 18px;
+	line-height: 24px;
+	margin: 15px 0 10px 0;
+}
+div.page_video_content h6 {
+	font-size: 18px;
+	line-height: 24px;
+	margin: 15px 0 10px 0;
+}
+
+div.universal_content div.spoiler div.content_sep {
+	margin: 20px 0;
+	height: 1px;
+	border-top: 1px solid #DBDBDB;
+}
+
+div.universal_content a {text-decoration: underline;}
+div.universal_content a:hover {text-decoration: none;}
+
+div.universal_content div.pic_container {
+	margin: 0;
+}
+
+div.universal_content div.pic_container  img {
+	display: block;
+}
+div.universal_content div.sign_container {
+	padding: 10px 10px 5px 10px;
+	margin: 0;
+	color: #808080;
+	font-size: 16px;
+	line-height: 21px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+div.universal_content div.sign_container.lt {
+	text-align: left;
+	padding: 10px 23px 5px 23px;
+}
+div.universal_content div.container192 {width: 192px;}
+div.universal_content div.container272 {width: 272px;}
+div.universal_content div.container416 {width: 416px;}
+div.universal_content div.container560 {width: 560px;}
+
+div.universal_content div.container192 img {width: 192px !important;}
+div.universal_content div.container272 img {width: 272px !important;}
+div.universal_content div.container416 img {width: 416px !important;}
+div.universal_content div.container560  img{width: 560px !important;}
+
+div.universal_content .fleft {
+	float: left;
+	margin: 0 20px 5px 0;
+}
+div.universal_content .fright {
+	float: right;
+	margin: 0 0 5px 20px;
+}
+
+div.universal_content .monosp {
+	font-family: monospace;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: right;
+}
+
+/* заходная большая картинка внутри контента */
+div.universal_content div.main_pic_container {
+	width: 848px;
+	margin: 0 0 23px -23px;
+}
+
+/* Одна большая картинка, под ней подпись */
+div.universal_content div.container_wide1 {
+	width: 848px;
+	margin: 23px 0 23px -23px;
+}
+div.universal_content div.container_wide1 img,
+div.universal_content div.container_wide1 div.pic_container {
+	width: 848px !important;
+	margin: 0;
+}
+div.universal_content div.container_wide1 div.sign_container {
+	width: 828px !important;
+	margin: 0;
+}
+
+div.universal_content div.container_wide1.adapt {
+	width: 848px;
+	margin: 0 0 23px -23px;
+}
+div.universal_content div.container_wide1.adapt div.pic_container {
+	text-align: center;
+}
+div.universal_content div.container_wide1.adapt div.pic_container img {
+	display: inline-block !important;
+	width: auto !important;
+	max-width: 100% !important;
+	height: auto !important;
+	border: 0px !important;
+}
+
+div.universal_content div.container_wide1.extimg {
+	width: 848px;
+	margin: 0 0 23px -23px;
+}
+div.universal_content div.container_wide1.extimg div.pic_container {
+	text-align: center;
+}
+div.universal_content div.container_wide1.extimg div.pic_container img {
+	display: inline-block !important;
+	width: auto !important;
+	max-width: 100% !important;
+	min-width: 50% !important;
+	height: auto !important;
+	border: 0px !important;
+	margin: 0 auto !important;
+}
+
+
+/* две-четыре-шесть картинок в ряд, одна подпись на все картинки */
+div.universal_content div.container_wide2 {
+	width: 848px;
+	margin: 0 0 23px -23px;
+}
+div.universal_content div.container_wide2 div.container416,
+div.universal_content div.container_wide2 div.container416 img {
+	width: 416px !important;
+	margin: 0;
+}
+div.universal_content div.container_wide2 div.container416 {
+	float: left;
+	margin: 0 0 16px 16px;
+}
+div.universal_content div.container_wide2 div.container416:nth-of-type(2n+1) {
+	margin-left: 0px;
+}
+div.universal_content div.container_wide2 div.container416:last-child,
+div.universal_content div.container_wide2 div.container416:nth-last-child(2) {
+	margin-bottom: 0px;
+}
+
+/* две картинки в ряд, подписи под каждой картинкой */
+div.universal_content div.container_wide2_2 {
+	width: 848px;
+	margin: 0 0 23px -23px;
+}
+div.universal_content div.container_wide2_2 div.container416,
+div.universal_content div.container_wide2_2 div.container416 img {
+	width: 416px !important;
+	margin: 0;
+}
+div.universal_content div.container_wide2_2 div.container416:first-child {float: left;}
+div.universal_content div.container_wide2_2 div.container416:last-child {float: right;}
+
+/* три-шесть-девять картинок в ряд, одна подпись на все картинки */
+div.universal_content div.container_wide3 {
+	width: 848px;
+	margin: 0 0 23px -23px;
+}
+div.universal_content div.container_wide3 div.container272,
+div.universal_content div.container_wide3 div.container272 img {
+	width: 272px !important;
+	margin: 0;
+}
+div.universal_content div.container_wide3 div.container272 {
+	float: left;
+	margin: 0 0 16px 16px;
+}
+div.universal_content div.container_wide3 div.container272:nth-of-type(3n+1) {
+	margin-left: 0px;
+}
+div.universal_content div.container_wide3 div.container272:last-child,
+div.universal_content div.container_wide3 div.container272:nth-last-child(2),
+div.universal_content div.container_wide3 div.container272:nth-last-child(3) {
+	margin-bottom: 0px;
+}
+
+/* три картинки в ряд, подписи под каждой картинкой */
+div.universal_content div.container_wide3_1 {
+	width: 848px;
+	margin: 0 0 23px -23px;
+}
+div.universal_content div.container_wide3_1 div.container272 {
+	float: left;
+	margin: 0;
+}
+div.universal_content div.container_wide3_1 div.container272,
+div.universal_content div.container_wide3_1 div.container272 img {
+	width: 272px !important;
+	margin: 0;
+}
+div.universal_content div.container_wide3_1 div.container272:first-child {float: left; margin-right: 16px;}
+div.universal_content div.container_wide3_1 div.container272:nth-of-type(2) {float: left;}
+div.universal_content div.container_wide3_1 div.container272:last-child {float: right;}
+
+/* четыре-восемь-двенадцать картинок в ряд, одна подпись на все картинки */
+div.universal_content div.container_wide4 {
+	width: 848px;
+	margin: 0 0 23px -23px;
+}
+div.universal_content div.container_wide4 div.container192,
+div.universal_content div.container_wide4 div.container192 img {
+	width: 192px !important;
+	margin: 0;
+}
+div.universal_content div.container_wide4 div.container192 {
+	float: left;
+	margin: 0 0 16px 16px;
+}
+div.universal_content div.container_wide4 div.container192:last-child,
+div.universal_content div.container_wide4 div.container192:nth-last-child(2),
+div.universal_content div.container_wide4 div.container192:nth-last-child(3),
+div.universal_content div.container_wide4 div.container192:nth-last-child(4) {
+	margin-bottom: 0px;
+}
+
+/* видео контейнер */
+div.universal_content div.video_block {
+	width: 848px;
+	margin: 0 0 23px -23px;
+}
+
+/* врезка 1 */
+div.universal_content div.vrezka1 {
+	
+}
+/* врезка 2 */
+div.universal_content div.vrezka2 {
+	margin: 30px auto;
+	width: 600px;
+	font-size: 20px;
+	line-height: 28px;
+}
+div.universal_content div.vrezka2 div.vrezka2_body {
+	color: #808080;
+	text-align: center;
+	padding: 2px 0;
+	font-size: 17px;
+    line-height: 24px;
+}
+div.universal_content div.vrezka2 div.vrezka_bord {
+	width: 326px;
+	margin: 0 auto;
+	border-top: 1px solid #808080;
+}
+/* врезка 3 */
+div.universal_content div.vrezka3 {
+	min-height: 40px;
+	height: auto;
+	margin: 23px auto;
+	font-size: 16px;
+	line-height: 22px;
+	color: #808080;
+	border: 1px solid #808080;
+	padding: 15px 15px 15px 70px;
+	background: url(../images/warn_sign1.png) no-repeat 15px 15px;
+}
+
+/* ========================= ОСНОВНАЯ ВРЕЗКА ============================ */
+div.universal_content div.vrezka {
+	margin: 0 0 23px 0;
+}
+div.universal_content div.vrezka div.vrezka_head {
+	background: #F11A36;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 0 23px;
+	margin: 0;
+}
+div.universal_content div.vrezka div.vrezka_body {
+	border: 1px solid #ddd;
+	border-top: none;
+	margin: 0;
+}
+div.universal_content div.vrezka  div.vrezka_body_in {
+	margin: 0;
+	padding: 23px 24px 0 24px;
+}
+div.universal_content div.vrezka div.content_sep {
+	margin: 20px 0;
+	height: 1px;
+	border-top: 1px solid #DBDBDB;
+}
+div.universal_content div.vrezka  div.container240,
+div.universal_content div.vrezka  div.container240 img {
+	width: 240px !important;
+}
+div.universal_content div.vrezka  div.container368, 
+div.universal_content div.vrezka  div.container368 img {
+	width: 368px !important;
+}
+
+/* Одна большая картинка, под ней подпись */
+div.universal_content div.vrezka div.vrezka_container_wide1 {
+	width: 752px;
+	margin: 23px 0 23px 0;
+}
+div.universal_content div.vrezka div.vrezka_container_wide1 img,
+div.universal_content div.vrezka div.vrezka_container_wide1 div.pic_container,
+div.universal_content div.vrezka div.vrezka_container_wide1 div.sign_container {
+	width: 752px !important;
+	margin: 0;
+}
+/* две-четыре-шесть картинок в ряд, одна подпись на все картинки */
+div.universal_content div.spoiler div.spoiler_container_wide2 {
+	width: 752px;
+	margin: 23px 0 23px 0;
+}
+div.universal_content div.vrezka div.vrezka_container_wide2 div.container368,
+div.universal_content div.vrezka div.vrezka_container_wide2 div.container368 img {
+	width: 368px !important;
+	margin: 0;
+}
+div.universal_content div.vrezka div.vrezka_container_wide2 div.container368 {
+	float: left;
+	margin: 0 0 16px 16px;
+}
+div.universal_content div.vrezka div.vrezka_container_wide2 div.container368:nth-of-type(2n+1) {
+	margin-left: 0px;
+}
+div.universal_content div.vrezka div.vrezka_container_wide2 div.container368:last-child,
+div.universal_content div.vrezka div.vrezka_container_wide2 div.container368:nth-last-child(2) {
+	margin-bottom: 0px;
+}
+
+/* две картинки в ряд, подписи под каждой картинкой */
+div.universal_content div.vrezka div.vrezka_container_wide2_2 {
+	width: 752px;
+	margin: 23px 0 23px 0;
+}
+div.universal_content div.vrezka div.vrezka_container_wide2_2 div.container368 {
+	float: left;
+	margin: 0 0 0 16px;
+}
+div.universal_content div.vrezka div.vrezka_container_wide2_2 div.container368,
+div.universal_content div.vrezka div.vrezka_container_wide2_2 div.container368 img {
+	width: 368px !important;
+}
+div.universal_content div.vrezka div.vrezka_container_wide2_2 div.container368:first-child {margin-left: 0px;}
+
+/* три-шесть-девять картинок в ряд, одна подпись на все картинки */
+div.universal_content div.vrezka div.vrezka_container_wide3 {
+	width: 752px;
+	margin: 23px 0 23px 0;
+}
+div.universal_content div.vrezka div.vrezka_container_wide3 div.container240,
+div.universal_content div.vrezka div.vrezka_container_wide3 div.container240 img {
+	width: 240px !important;
+	margin: 0;
+}
+div.universal_content div.vrezka div.vrezka_container_wide3 div.container240 {
+	float: left;
+	margin: 0 0 16px 16px;
+}
+div.universal_content div.vrezka div.vrezka_container_wide3 div.container240:nth-of-type(3n+1) {
+	margin-left: 0px;
+}
+div.universal_content div.vrezka div.vrezka_container_wide3 div.container240:last-child,
+div.universal_content div.vrezka div.vrezka_container_wide3 div.container240:nth-last-child(2),
+div.universal_content div.vrezka div.vrezka_container_wide3 div.container240:nth-last-child(3) {
+	margin-bottom: 0px;
+}
+
+/* три картинки в ряд, подписи под каждой картинкой */
+div.universal_content div.spoiler div.vrezka_container_wide3_3 {
+	width: 752px;
+	margin: 23px 0 23px 0;
+}
+div.universal_content div.vrezka div.vrezka_container_wide3_3 div.container240,
+div.universal_content div.vrezka div.vrezka_container_wide3_3 div.container240 img {
+	width: 240px !important;
+	margin: 0;
+}
+div.universal_content div.vrezka div.vrezka_container_wide3_3 div.container240:first-child {float: left; margin-right: 16px;}
+div.universal_content div.vrezka div.vrezka_container_wide3_3 div.container240:nth-of-type(2) {float: left;}
+div.universal_content div.vrezka div.vrezka_container_wide3_3 div.container240:last-child {float: right;}
+
+/* четыре-восемь-двенадцать картинок в ряд, одна подпись на все картинки */
+div.universal_content div.vrezka_container_wide4 {
+	width: 752px;
+	margin: 23px 0 23px 0;
+}
+div.universal_content div.vrezka div.vrezka_container_wide4 div.container192,
+div.universal_content div.vrezka div.vrezka_container_wide4 div.container192 img {
+	width: 182px !important;
+	margin: 0;
+}
+div.universal_content div.vrezka div.vrezka_container_wide4 div.container192 {
+	float: left;
+	margin: 0 0 16px 8px;
+}
+div.universal_content div.vrezka div.vrezka_container_wide4 div.container192:nth-of-type(4n+1) {
+	margin-left: 0px;
+}
+div.universal_content div.vrezka div.vrezka_container_wide4 div.container192:last-child,
+div.universal_content div.vrezka div.vrezka_container_wide4 div.container192:nth-last-child(2),
+div.universal_content div.vrezka div.vrezka_container_wide4 div.container192:nth-last-child(3),
+div.universal_content div.vrezka div.vrezka_container_wide4 div.container192:nth-last-child(4) {
+	margin-bottom: 0px;
+}
+/* видео контейнер */
+div.universal_content div.vrezka div.video_block {
+	width: 752px;
+	margin: 23px 0 23px 0;
+}
+
+/* ========================= СПОЙЛЕР ============================ */
+div.universal_content div.spoiler {
+	margin: 23px 0;
+}
+div.universal_content div.spoiler div.spoiler_head {
+	min-height: 20px;
+	margin: 0;
+	height: auto;
+	line-height: 22px;
+	font-weight: 700;
+	color: #000;
+	background: #f0f0f0;
+	padding: 15px 23px;
+	cursor: pointer;
+	-webkit-user-select: none !important;
+	-moz-user-select: none !important;
+	-khtml-user-select: none !important;
+	user-select: none !important;
+}
+div.universal_content div.spoiler .icon.excol {
+	float: right;
+	width: 24px;
+	height: 14px;
+	background-position: -361px 0px;
+	margin: 5px 0 5px 10px;
+}
+div.universal_content div.spoiler.opened .icon.excol {background-position: -361px -38px;}
+
+div.universal_content div.spoiler div.spoiler_body {
+	display: none;
+	border: 1px solid #ddd;
+	border-top: none;
+	margin: 0;
+}
+div.universal_content div.spoiler  div.spoiler_body_in {
+	margin: 0;
+	padding: 23px 24px 0 24px;
+}
+
+div.universal_content div.spoiler  div.container240,
+div.universal_content div.spoiler  div.container240 img {
+	width: 240px !important;
+}
+div.universal_content div.spoiler  div.container368, 
+div.universal_content div.spoiler  div.container368 img {
+	width: 368px !important;
+}
+
+/* Одна большая картинка, под ней подпись */
+div.universal_content div.spoiler div.spoiler_container_wide1 {
+	width: 752px;
+	margin: 23px 0 23px 0;
+}
+div.universal_content div.spoiler div.spoiler_container_wide1 img,
+div.universal_content div.spoiler div.spoiler_container_wide1 div.pic_container,
+div.universal_content div.spoiler div.spoiler_container_wide1 div.sign_container {
+	width: 752px !important;
+	margin: 0;
+}
+/* две-четыре-шесть картинок в ряд, одна подпись на все картинки */
+div.universal_content div.spoiler div.spoiler_container_wide2 {
+	width: 752px;
+	margin: 23px 0 23px 0;
+}
+div.universal_content div.spoiler div.spoiler_container_wide2 div.container368,
+div.universal_content div.spoiler div.spoiler_container_wide2 div.container368 img {
+	width: 368px !important;
+	margin: 0;
+}
+div.universal_content div.spoiler div.spoiler_container_wide2 div.container368 {
+	float: left;
+	margin: 0 0 16px 16px;
+}
+div.universal_content div.spoiler div.spoiler_container_wide2 div.container368:nth-of-type(2n+1) {
+	margin-left: 0px;
+}
+div.universal_content div.spoiler div.spoiler_container_wide2 div.container368:last-child,
+div.universal_content div.spoiler div.spoiler_container_wide2 div.container368:nth-last-child(2) {
+	margin-bottom: 0px;
+}
+
+/* две картинки в ряд, подписи под каждой картинкой */
+div.universal_content div.spoiler div.spoiler_container_wide2_2 {
+	width: 752px;
+	margin: 23px 0 23px 0;
+}
+div.universal_content div.spoiler div.spoiler_container_wide2_2 div.container368 {
+	float: left;
+	margin: 0 0 0 16px;
+}
+div.universal_content div.spoiler div.spoiler_container_wide2_2 div.container368,
+div.universal_content div.spoiler div.spoiler_container_wide2_2 div.container368 img {
+	width: 368px !important;
+}
+div.universal_content div.spoiler div.spoiler_container_wide2_2 div.container368:first-child {margin-left: 0px;}
+
+/* три-шесть-девять картинок в ряд, одна подпись на все картинки */
+div.universal_content div.spoiler div.spoiler_container_wide3 {
+	width: 752px;
+	margin: 23px 0 23px 0;
+}
+div.universal_content div.spoiler div.spoiler_container_wide3 div.container240,
+div.universal_content div.spoiler div.spoiler_container_wide3 div.container240 img {
+	width: 240px !important;
+	margin: 0;
+}
+div.universal_content div.spoiler div.spoiler_container_wide3 div.container240 {
+	float: left;
+	margin: 0 0 16px 16px;
+}
+div.universal_content div.spoiler div.spoiler_container_wide3 div.container240:nth-of-type(3n+1) {
+	margin-left: 0px;
+}
+div.universal_content div.spoiler div.spoiler_container_wide3 div.container240:last-child,
+div.universal_content div.spoiler div.spoiler_container_wide3 div.container240:nth-last-child(2),
+div.universal_content div.spoiler div.spoiler_container_wide3 div.container240:nth-last-child(3) {
+	margin-bottom: 0px;
+}
+
+/* три картинки в ряд, подписи под каждой картинкой */
+div.universal_content div.spoiler div.spoiler_container_wide3_3 {
+	width: 752px;
+	margin: 23px 0 23px 0;
+}
+div.universal_content div.spoiler div.spoiler_container_wide3_3 div.container240,
+div.universal_content div.spoiler div.spoiler_container_wide3_3 div.container240 img {
+	width: 240px !important;
+	margin: 0;
+}
+div.universal_content div.spoiler div.spoiler_container_wide3_3 div.container240:first-child {float: left; margin-right: 16px;}
+div.universal_content div.spoiler div.spoiler_container_wide3_3 div.container240:nth-of-type(2) {float: left;}
+div.universal_content div.spoiler div.spoiler_container_wide3_3 div.container240:last-child {float: right;}
+
+/* четыре-восемь-двенадцать картинок в ряд, одна подпись на все картинки */
+div.universal_content div.spoiler_container_wide4 {
+	width: 752px;
+	margin: 23px 0 23px 0;
+}
+div.universal_content div.spoiler div.spoiler_container_wide4 div.container192,
+div.universal_content div.spoiler div.spoiler_container_wide4 div.container192 img {
+	width: 182px !important;
+	margin: 0;
+}
+div.universal_content div.spoiler div.spoiler_container_wide4 div.container192 {
+	float: left;
+	margin: 0 0 16px 8px;
+}
+div.universal_content div.spoiler div.spoiler_container_wide4 div.container192:nth-of-type(4n+1) {
+	margin-left: 0px;
+}
+div.universal_content div.spoiler div.spoiler_container_wide4 div.container192:last-child,
+div.universal_content div.spoiler div.spoiler_container_wide4 div.container192:nth-last-child(2),
+div.universal_content div.spoiler div.spoiler_container_wide4 div.container192:nth-last-child(3),
+div.universal_content div.spoiler div.spoiler_container_wide4 div.container192:nth-last-child(4) {
+	margin-bottom: 0px;
+}
+/* видео контейнер */
+div.universal_content div.spoiler div.video_block {
+	width: 752px;
+	margin: 23px 0 23px 0;
+}
+div.universal_content div.endsep {
+	width: 70px;
+	height: 14px;
+	margin: 30px auto;
+	background-image: url(../images/sprites.png);
+	background-repeat: no-repeat;
+	background-position: -335px -82px;
+}
+
+/* мнение1 */
+div.universal_content div.opinion {
+	background: #EFEFEF;
+	margin: 0 0 23px 0;
+	padding: 23px;
+}
+
+div.universal_content div.opinion div.opinion_avatar {
+	float: left;
+	width: 70px;
+	height: 70px;
+	margin: 0;
+}
+div.universal_content div.opinion div.opinion_avatar img {
+	width: 70px !important;
+	height: 70px !important;
+	display: block;
+	border-radius: 35px;
+    -moz-border-radius: 35px;
+    -khtml-border-radius: 35px;
+    -webkit-border-radius: 35px;
+}
+div.universal_content div.opinion div.opinion_text {
+	margin: 0 0 0 100px;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+div.opinion div.opinion_text div.opinion_text_body {
+	font-size: 20px;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+	line-height: 30px;
+	margin: 0px;
+	font-style: italic;
+}
+div.opinion div.opinion_text div.opinion_by {
+	text-align: right;
+	font-weight: 700;
+	font-family: monospace, sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 0px;
+}
+
+/* мнение2 интервью */
+div.universal_content div.opinion_v2 {
+	margin: 0;
+	padding: 10px 23px;
+}
+div.universal_content div.opinion_v2 div.opinion_avatar {
+	float: left;
+	width: 70px;
+	height: 70px;
+	margin: 0;
+}
+div.universal_content div.opinion_v2 div.opinion_avatar img {
+	width: 70px !important;
+	height: 70px !important;
+	display: block;
+	border-radius: 35px;
+    -moz-border-radius: 35px;
+    -khtml-border-radius: 35px;
+    -webkit-border-radius: 35px;
+}
+div.universal_content div.opinion_v2 div.opinion_text {
+	margin: 0 0 0 100px;
+	font-size: 16px;
+	line-height: 24px;
+}
+/* мнение3 прямая речь */
+div.universal_content div.opinion_v3 {
+	margin: 0;
+	padding: 23px 23px 10px 23px;
+	border: 1px solid #BEBEBE;
+}
+div.universal_content div.opinion_v3 div.opinion_avatar {
+	float: left;
+	width: 70px;
+	height: 70px;
+	margin: 0;
+}
+div.universal_content div.opinion_v3 div.opinion_avatar img {
+	width: 70px !important;
+	height: 70px !important;
+	display: block;
+	border-radius: 35px;
+    -moz-border-radius: 35px;
+    -khtml-border-radius: 35px;
+    -webkit-border-radius: 35px;
+}
+div.universal_content div.opinion_v3 div.opinion_text {
+	margin: 0 0 0 100px;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/* постраничка в статье */
+div.universal_content div.article_pages {
+	
+}
+div.universal_content div.article_pages span.page {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: #fff;
+	color: #808080;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 40px;
+	border: 1px solid #bfbfbf;
+	cursor: pointer;
+	margin: 0 5px 0 0;
+}
+div.universal_content div.article_pages span.page:hover {
+	color: #fff;
+	background: #808080;
+}
+div.universal_content div.article_pages span.page.on {
+	cursor: default;
+	color: #fff;
+	background: #808080;
+}
+
+/* таблицы */
+div.universal_content table.tbl {
+	margin: 23px 0;
+	font-size: 14px;
+	line-height: 20px;
+	width: 100%;
+	border-collapse: collapse;
+	border-bottom: 1px solid #F9F9F9;
+}
+div.universal_content table.tbl tbody tr td {
+	background: #fff;
+}
+div.universal_content table.tbl tbody tr:nth-child(odd) td {
+	background: #F9F9F9;
+}
+div.universal_content table.tbl  td {
+	padding: 10px 15px;
+	vertical-align: top;
+	text-align: center;
+}
+div.universal_content table.tbl  td:first-child {text-align: left;}
+
+div.universal_content table.tbl tr.t_mainhead {
+	background: #f21937;
+	color: #fff;
+	font-weight: 700;
+	font-size: 16px;
+}
+div.universal_content table.tbl tr.t_mainhead td {background: #f21937 !important; text-align: center;}
+
+div.universal_content table.tbl tr.t_head {
+	background: #bfbfbf;
+	color: #000;
+	font-weight: 700;
+}
+div.universal_content table.tbl tr.t_head td {background: #bfbfbf !important; text-align: center;}
+
+div.universal_content table.tbl tr.t_subhead {
+	background: #f0f0f0;
+	color: #000;
+	font-weight: 400;
+	text-align: center;
+}
+div.universal_content table.tbl tr.t_subhead td {background: #f0f0f0 !important; text-align: center;}
+
+/* СОДЕРЖАНИЕ ДИСКА */
+div.universal_content div.red_box_ttl {
+	background: #F11A36;
+	color: #fff;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 22px;
+	padding: 10px 23px;
+	margin: 0 0 15px 0;
+}
+div.universal_content div.linebox {
+	margin: 0 0 15px 0;
+	height: 153px;
+}
+div.universal_content div.linebox div.linebox_picbox {
+	float: left;
+	width: 272px;
+	height: 153px;
+	margin: 0;
+}
+div.universal_content div.linebox div.linebox_textbox {
+	margin: 0;
+	padding: 10px 0 10px 290px;
+	font-weight: 400;
+    font-size: 14px;
+	line-height: 22px;
+    color: #808080;
+}
+div.universal_content div.linebox div.linebox_ttl {
+	color: #000;
+    font-weight: 700;
+    font-size: 18px;
+	line-height: 22px;
+    margin: 0 0 10px 0;
+}
+div.universal_content div.linebox div.linebox_bottom {
+	margin: 10px 0 0 0;
+	font-size: 12px;
+	line-height: 14px;
+	color: #bfbfbf;
+}
+
+/* ============ ОПРОСНИК ============== */
+div.universal_content div.quiz_block {
+	/*margin: 0 0 40px 0;*/
+	margin: 0;
+}
+div.universal_content div.quiz_block div.quiz_picblock {
+	width: 848px;
+	margin: 0 0 23px -23px;
+}
+div.universal_content div.quiz_block div.quiz_picblock img {
+	display: block;
+	width: 848px !important;
+}
+
+div.universal_content div.quiz_block div.quiz_variants {
+	margin: 0 0 30px 0;
+}
+div.universal_content div.quiz_block div.quiz_line {
+	margin: 18px 0;
+	cursor: pointer;
+}
+div.universal_content div div.quiz_line span.chbox {
+	display: inline-block;
+	float: left;
+	width: 16px;
+	height: 16px;
+	background-image: url(../images/sprites.png);
+	background-repeat: no-repeat;
+	background-position: -129px 0px;
+	margin-top: 4px;
+}
+div.universal_content div div.quiz_line.sel span.chbox {
+	background-position: -145px 0px;
+}
+
+div.universal_content div.quiz_block div.label_chbox {
+	margin: 0 0 0 25px;
+	vertical-align: top;
+}
+div.universal_content div.quiz_line:hover div.label_chbox {
+	color: #F11A36;
+}
+div.universal_content div.quiz_block div.quiz_tools {
+	margin: 0;
+}
+div.universal_content div.quiz_tools a.btn.green_btn {
+	text-decoration: none;
+	width: 230px;
+}
+div.universal_content div.quiz_block div.spoiler {
+	margin: 0 0 23px 0;
+}
+
+div.universal_content div.quiz_block div.quiz_result {
+	margin: 0;
+	display: table;
+	width: 100%;
+}
+div.universal_content div.quiz_block div.quiz_result_line {
+	margin: 0;
+	display: table-row;
+	border-top: 1px solid #ddd;
+}
+div.universal_content div.quiz_result_line div.col1,
+div.universal_content div.quiz_result_line div.col2,
+div.universal_content div.quiz_result_line div.col3 {
+	display: table-cell;
+	border-top: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	vertical-align: middle;
+	height: 60px;
+	margin: 0;
+	font-size: 14px;
+	color: #808080;
+	line-height: 20px;
+	padding: 0 10px;
+}
+div.universal_content div.quiz_result_line div.col1 {
+	border-left: none;
+	padding: 0 20px;
+}
+div.universal_content div.quiz_result_line div.col2 {
+	width: 320px;
+	font-weight: 700;
+	padding: 0 0 0 20px;
+}
+div.universal_content div.quiz_result_line div.col3 {
+	text-align: center;
+	width: 100px;
+	font-weight: 700;
+	padding: 0;
+}
+div.universal_content div.quiz_result_line  span.quizres_rate_line {
+	display: inline-block;
+	height: 10px;
+	width: 230px;
+	background: #f0f0f0;
+	vertical-align: top;
+	text-align: left;
+	margin: 5px 5px 0 0;
+	border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+div.universal_content div.quiz_result_line  span.quizres_rate_line span.quizres_rate_bar {
+	display: inline-block;
+	height: 10px;
+	background: #f21937;
+	vertical-align: top;
+	border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+div.universal_content div.quiz_result_line div.col3 span.icon.uprofile {
+	width: 12px;
+	height: 12px;
+	background-position: -278px 0px;
+	vertical-align: top;
+	margin: 3px 3px 0 0;
+}
+/* ==== FAQ ==== */
+div.universal_content div.faq_q {
+	color: #626262;
+	letter-spacing: 2px;
+	margin: 5px 0 10px 0;
+}
+div.universal_content div.faq_a{
+	margin: 0 0 20px 0;
+	font-weight: 600;
+}
+
+/* о номинации */
+div.universal_content div.nominat {
+	width: 344px;
+	margin: 4px 0 23px 0;
+	border: 1px solid #DBDBDB;
+	font-size: 14px;
+	line-height: 22px;
+	padding: 20px 23px 5px 23px;
+}
+div.universal_content div.nominat div.ttl {
+	margin: 0 0 20px 0;
+	padding: 0 0 10px 0;
+	font-size: 20px;
+	font-weight: 700;
+	color: #000;
+	border-bottom: 1px solid #BEBEBE;
+}
+div.universal_content div.nominat .icon.local {
+	width: 35px;
+	height: 35px;
+	vertical-align: top;
+	margin: -5px 10px 0 0;
+	background-position: -35px -113px;
+}
+div.universal_content div.nominat.fleft {
+	float: left;
+	margin-right: 23px;
+}
+div.universal_content div.nominat.fright {
+	float: right;
+	margin-left: 23px;
+}
+
+/* прогноз */
+div.universal_content div.forecast {
+	margin: 0 0 23px 0;
+	border: 1px solid #DBDBDB;
+	font-size: 14px;
+	line-height: 22px;
+	padding: 20px 23px 5px 23px;
+}
+div.universal_content div.forecast div.ttl {
+	margin: 0 0 20px 0;
+	padding: 0 0 10px 0;
+	font-size: 20px;
+	font-weight: 700;
+	color: #000;
+	border-bottom: 1px solid #BEBEBE;
+}
+div.universal_content div.forecast .icon.diagram {
+	width: 35px;
+	height: 35px;
+	vertical-align: top;
+	margin: -5px 10px 0 0;
+	background-position: -152px -115px;
+}
+div.universal_content div.forecast div.pic_container  {
+	margin: 0 0 20px 0;
+}
+div.universal_content div.forecast div.pic_container img {
+	width: 752px;
+	display: block;
+}
+
+/* врезка-монитор */
+div.universal_content div.vrezka_mon {
+	margin: 0 0 23px 0;
+	border: 1px solid #DBDBDB;
+	font-size: 14px;
+	line-height: 22px;
+	padding: 20px 23px 5px 23px;
+}
+div.universal_content div.vrezka_mon div.ttl {
+	margin: 0 0 20px 0;
+	padding: 0 0 10px 0;
+	font-size: 20px;
+	font-weight: 700;
+	color: #000;
+	border-bottom: 1px solid #BEBEBE;
+}
+div.universal_content div.vrezka_mon .icon.monitor {
+	width: 40px;
+	height: 35px;
+	vertical-align: top;
+	margin: -5px 10px 0 0;
+	background-position: -195px -115px;
+}
+div.universal_content div.vrezka_mon div.pic_container  {
+	margin: 0 0 20px 0;
+}
+div.universal_content div.vrezka_mon div.pic_container img {
+	width: 752px;
+	display: block;
+}
+div.universal_content div.vrezka_mon div.btns {
+	padding: 20px 0;
+}
+div.universal_content div.vrezka_mon a.green_btn {
+	display: inline-block;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	height: 27px;
+	line-height: 27px;
+	padding: 0 40px;
+	border-radius: 2px;
+    -moz-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    -webkit-border-radius: 2px;
+	text-align: center;
+	color: #2FB012;
+	border: 1px solid #2FB012;
+	text-decoration: none;
+}
+div.universal_content div.vrezka_mon a.green_btn:hover {
+	color: #fff;
+	background: #2FB012;
+} 
+
+/* универсальный */
+div.universal_content div.uninote  {
+	margin: 23px 0;
+	border: 1px solid #DBDBDB;
+	font-size: 14px;
+	line-height: 22px;
+	padding: 20px 23px 5px 23px;
+}
+div.universal_content div.uninote div.ttl {
+	margin: 0 0 20px 0;
+	padding: 0 0 10px 0;
+	font-size: 20px;
+	font-weight: 700;
+	color: #000;
+	border-bottom: 1px solid #BEBEBE;
+}
+div.universal_content div.uninote div.pic_container  {
+	margin: 0;
+}
+div.universal_content div.uninote div.pic_container img {
+	width: 752px;
+	display: block;
+}
+
+/* иконка монитор */
+div.universal_content div.uninote.mon .icon {
+	width: 40px;
+	height: 35px;
+	vertical-align: top;
+	margin: -5px 10px 0 0;
+	background-position: -195px -115px;
+}
+/* иконка график */
+div.universal_content div.uninote.diagram .icon {
+	width: 35px;
+	height: 35px;
+	vertical-align: top;
+	margin: -5px 10px 0 0;
+	background-position: -152px -115px;
+}
+/* иконка кубок */
+div.universal_content div.uninote.cup .icon {
+	width: 35px;
+	height: 35px;
+	vertical-align: top;
+	margin: -5px 10px 0 0;
+	background-position: -35px -113px;
+}
+/* иконка приставка */
+div.universal_content div.uninote.console .icon {
+	width: 35px;
+	height: 35px;
+	vertical-align: top;
+	margin: -5px 10px 0 0;
+	background-position: 0px -113px;
+}
+/* иконка хуйзнайчо (локализация) */
+div.universal_content div.uninote.paper .icon {
+	width: 35px;
+	height: 35px;
+	vertical-align: top;
+	margin: -5px 10px 0 0;
+	background-position: -70px -113px;
+}
+div.universal_content div.uninote div.pic_container  {
+	margin: 0 0 20px 0;
+}
+div.universal_content div.uninote div.pic_container img {
+	width: 752px;
+	display: block;
+}
+
+/* кнопки в заметке */
+div.universal_content div.uninote div.btns {
+	padding: 10px 0 20px 0;
+	display: grid;
+	grid-template-columns: 49% 49%;
+    grid-gap: 0 2%;
+}
+div.universal_content div.uninote a.green_btn {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	min-height: 27px;
+	line-height: 130%;
+	height: 100%;
+	padding: 1px 10px;
+	border-radius: 2px;
+    -moz-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    -webkit-border-radius: 2px;
+	text-align: center;
+	color: #2FB012;
+	border: 1px solid #2FB012;
+	text-decoration: none;
+	float:none!important;
+    margin:0px;
+}
+div.universal_content div.uninote a.green_btn:hover {
+	color: #fff;
+	background: #2FB012;
+}
+div.universal_content div.uninote div.btns.clearfix,
+div.universal_content div.uninote div.btns.clearfix:after {
+	content: normal;
+    display: grid;
+    height: auto;
+    visibility: visible;
+}
+
+@media screen and (max-width: 1023px)  { 
+	div.universal_content div.uninote div.btns {
+		padding: 10px 0 20px 0;
+		display: grid;
+		grid-template-columns: 100%;
+		grid-gap: 15px 0;
+	}
+}
+
+/* Одна большая картинка, под ней подпись */
+div.universal_content div.uninote div.uninote_container_wide1 {
+	width: 752px;
+	margin: 0 0 23px 0;
+}
+div.universal_content div.uninote div.uninote_container_wide1 img,
+div.universal_content div.uninote div.uninote_container_wide1 div.pic_container,
+div.universal_content div.uninote div.uninote_container_wide1 div.sign_container {
+	width: 752px !important;
+	margin: 0;
+}
+
+/* блок доп.ссылок */
+div.universal_content div.grayblock {
+    text-align: center;
+    margin: 23px 0 23px 0;
+    padding: 20px 23px;
+    background: #F0F0F0;
+}
+
+div.universal_content div.grayblock a {
+    font-weight: 600;
+    margin: 0 7px;
+}
+
+/* DVD-content */
+div.universal_content div.linebox.sqr_nofix {
+	margin: 0 0 15px 0;
+	min-height: 140px;
+	height: auto;
+}
+div.universal_content div.linebox.sqr_nofix div.linebox_picbox{
+	float: left;
+	width: 140px;
+	height: 140px;
+	margin: 0;
+}
+div.universal_content div.linebox.sqr_nofix div.linebox_picbox img {
+	width: 140px;
+	height: 140px;
+	margin: 0px;
+}
+div.universal_content div.linebox.sqr_nofix div.linebox_textbox {
+	margin: 0;
+	padding: 5px 0 10px 158px;
+}
+
+div.universal_content div.grayblock img[style*="float: right"] {
+	margin: 0 0 10px 25px;
+}
+div.universal_content div.grayblock img[style*="float: left"] {
+	margin: 0 20px 10px 0;
+}
+
+/* серый блок, контент по центру, у ссылок нет отступов по бокам */
+div.universal_content div.grayblock_nom {
+	text-align: center;
+	margin: 0 0 23px 0;
+	padding: 20px 23px;
+	background: #F0F0F0;
+}
+div.universal_content div.grayblock_nom a {
+	font-weight: 600;
+	margin: 0;
+}
+
+div.universal_content div.grayblock_nom img[style*="float: right"] {
+	margin: 0 0 10px 25px;
+}
+div.universal_content div.grayblock_nom img[style*="float: left"] {
+	margin: 0 20px 10px 0;
+}
+
+div.vrezka_inline {
+	margin: 10px 0 15px 0;
+	padding: 0px;
+	overflow: hidden;
+}
+
+div.vrezka_inline div.vi_img {
+	max-width: 250px;
+	margin: 0px 11px 11px;
+	padding: 0px;
+	float: right;
+	text-align:center;
+}
+
+div.vrezka_inline div.vi_img img {
+	max-width: 250px;
+	margin: 0 auto;
+	display: block;
+	border: 0px;
+}
+
+div.vrezka_inline div.vi_text {
+	margin:0px;
+}

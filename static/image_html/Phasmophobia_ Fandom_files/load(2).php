@@ -1,0 +1,1 @@
+.WikiaArticle a:visited{color:#5c82ed}.WikiaArticle a.new{color:#c94448}

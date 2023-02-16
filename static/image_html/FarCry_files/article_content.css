@@ -1,0 +1,645 @@
+/* тело статьи */
+div.page_article_content {
+	padding-bottom: 15px;
+}
+/* Близкие по духу */
+div.page_article_content div.similar_block {
+	background: #EFEFEF;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0 23px 13px 23px;
+	margin: 23px 0;
+}
+div.page_article_content div.similar_block  div.similar_block_head {
+	background: #F11A36;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+	margin: 0 -23px 13px -23px;
+}
+div.page_article_content div.similar_block  div.similar_block_body {
+	margin: 0;
+} 
+div.page_article_content div.similar_block_body div.similar_box {
+	width: 140px;
+	min-height: 140px;
+	height: auto;
+	float: left;
+	margin: 0 0 0 14px;
+}
+div.page_article_content div.similar_block_body div.similar_box a {
+	text-decoration: none;
+}
+div.page_article_content div.similar_block_body div.similar_box:first-child {
+	margin: 0;
+	
+}
+div.page_article_content div.similar_block_body div.similar_box img {
+	width: 140px !important;
+	display: block;
+}
+div.page_article_content div.similar_block_body div.pic_sign {
+	margin: 5px 0 0 0;
+	text-align: center;
+}
+
+/* порадовало-огорчило */
+div.page_article_content div.cols2 {
+	display: table;
+	margin: 0 0 15px 0;
+}
+div.page_article_content div.cols2  div {
+	margin: 7px 0;
+}
+div.page_article_content div.plusminus {
+	display: table-row;
+	margin: 0;
+}
+
+div.page_article_content div.plusminus div.plusminus_box {
+	display: table-cell;
+	width: 390px;
+	border: 1px solid #DBDBDB;
+	vertical-align: top;
+	margin: 0;
+	font-size: 14px;
+}
+div.page_article_content div.plusminus div.plusminus_box div.plusminus_box_in {
+	padding: 10px 23px 5px 23px;
+}
+div.page_article_content div.plusminus div.sep {
+	display: table-cell;
+	width: 20px;
+	margin: 0;
+}
+div.page_article_content div.plusminus_box div.ttl {
+	margin: 0 0 10px 0;
+	font-size: 20px;
+	font-weight: 700;
+}
+div.page_article_content div.plusminus_box div.plusminus_pic {
+	margin: 0 0 15px 0;
+	width: 342px;
+	height: 192px;
+	overflow: hidden;
+	text-align: center;
+}
+div.page_article_content div.plusminus_box div.plusminus_pic img {
+	display: block;
+	width: 352px !important;
+	height: 198px !important;
+	margin: 0;
+	margin: -3px 0 0 -5px;
+}
+div.page_article_content div.plusminus_box.good  div.ttl {color: #32b101;}
+div.page_article_content div.plusminus_box.bad  div.ttl {color: #f21937;}
+
+div.page_article_content div.plusminus_box .icon.psms {
+	width: 24px;
+	height: 33px;
+	vertical-align: top;
+	margin: -4px 10px 0 0;
+	background-position: -433px 0px;
+}
+div.page_article_content div.plusminus_box.good .icon.psms  {background-position: -433px 0px;}
+div.page_article_content div.plusminus_box.bad .icon.psms  {background-position: -433px -33px;}
+
+div.page_article_content div.plusminus_box ul {
+	margin: 0 0 0 4px;
+	line-height: 24px;
+}
+
+div.page_article_content div.plusminus_box ul li {
+	list-style-type: none;
+	list-style-image: none;
+	text-indent: 0px;
+	margin-top: 5px;
+	padding-left: 20px;
+	line-height: 22px;
+	position: relative;
+}
+div.page_article_content div.plusminus_box ul li:before {
+    color: #000;
+    content: "• ";
+	font-size: 30px;
+	vertical-align: top;
+	margin-right: 5px;
+	position: absolute;
+	left: 0px;
+	top: 1px;
+}
+div.page_article_content div.plusminus_box.good ul li:before {color: #32b101;}
+div.page_article_content div.plusminus_box.bad ul li:before {color: #f21937;}
+
+/* как играть, ачивка редакции */
+div.page_article_content div.how_achiv {
+	margin: 0 0 23px 0;
+	display: table-row;
+}
+
+div.page_article_content div.how_achiv div.how_achiv_box {
+	display: table-cell;
+	width: 390px;
+	border: 1px solid #DBDBDB;
+	vertical-align: top;
+	margin: 0;
+	font-size: 14px;
+	line-height: 22px;
+}
+div.page_article_content div.how_achiv div.how_achiv_box div.how_achiv_box_in {
+	padding: 15px 23px 5px 23px;
+}
+div.page_article_content div.how_achiv div.sep {
+	display: table-cell;
+	width: 20px;
+	margin: 0;
+}
+div.page_article_content div.how_achiv_box div.ttl {
+	margin: 0 0 20px 0;
+	padding: 0 0 10px 0;
+	font-size: 20px;
+	font-weight: 700;
+	color: #000;
+	border-bottom: 1px solid #BEBEBE;
+}
+div.page_article_content div.how_achiv_box .icon.how {
+	width: 35px;
+	height: 35px;
+	vertical-align: top;
+	margin: -5px 10px 0 0;
+	background-position: 0px -113px;
+}
+div.page_article_content div.how_achiv_box .icon.achiv {
+	width: 35px;
+	height: 35px;
+	vertical-align: top;
+	margin: -5px 10px 0 0;
+	background-position: -35px -113px;
+}
+
+/* о локализации */
+div.page_article_content div.localiz {
+	margin: 0 0 23px 0;
+	border: 1px solid #DBDBDB;
+	font-size: 14px;
+	line-height: 22px;
+	padding: 20px 23px 5px 23px;
+}
+div.page_article_content div.localiz div.ttl {
+	margin: 0 0 20px 0;
+	padding: 0 0 10px 0;
+	font-size: 20px;
+	font-weight: 700;
+	color: #000;
+	border-bottom: 1px solid #BEBEBE;
+}
+div.page_article_content div.localiz .icon.local {
+	width: 35px;
+	height: 35px;
+	vertical-align: top;
+	margin: -5px 10px 0 0;
+	background-position: -70px -113px;
+}
+
+/* вердикт */
+div.page_article_content div.verdict {
+	font-size: 14px;
+	line-height: 22px;
+	margin: 30px 0;
+}
+div.page_article_content div.verdict div.ttl {
+	color: #f21937;
+	font-size: 22px;
+	margin: 0 0 20px 0;
+	font-weight: 700;
+}
+div.page_article_content div.verdict div.verdict_rt {
+	float: right;
+	width: 140px;
+	text-align: center;
+	margin: 0 0 0 100px;
+}
+div.page_article_content div.verdict div.verdict_rt1 {
+	float: right;
+	width: 220px;
+	text-align: center;
+	/* margin: 0 0 0 40px; */
+	margin:0;
+}
+
+div.page_article_content div.verdict div.verdict_rt span.verdict_rate {
+	color: #f21937;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+}
+div.page_article_content div.verdict  div.rating_box {
+	margin: 5px 0 0 0;
+}
+div.page_article_content div.verdict div.rating_box span.rate_redbox {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background: #f21937;
+	color: #fff;
+	font-size: 26px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 50px;
+	margin: 0;
+}
+div.page_article_content div.verdict div.rating_box div.rate_label {
+	margin: 10px 0 0 0;
+	color: #808080;
+	font-size: 12px;
+	line-height: 12px;
+}
+div.page_article_content div.verdict div.rating_box div.rate_label span {
+	font-weight: 600;
+}
+
+/* promo gallery */
+div.ad_contest_outer {
+	
+}
+div.ad_contest_outer  a {
+	text-decoration: none;
+	color: #000;
+}
+div.ad_contest_outer div.ad_contest_text {
+	margin: 0 0 15px 0;
+}
+div.ad_contest_outer div.ad_contest_glr {
+	width: 848px;
+	margin: 0 0 0px -23px;
+}
+div.ad_contest_outer div.ad_contest_glr div.ad_contest_glr_box {
+	float: left;
+	width: 272px;
+	height: 530px;
+	margin: 0 0 23px 16px;
+}
+div.ad_contest_outer div.ad_contest_glr div.ad_contest_glr_box:nth-of-type(3n+1) {
+	margin-left: 0px;
+}
+div.ad_contest_outer div.ad_contest_glr div.ad_contest_glr_picbox, 
+div.ad_contest_outer div.ad_contest_glr div.ad_contest_glr_picbox img {
+	width: 272px;
+	height: 408px;
+	display: block;
+	margin: 0;
+}
+
+div.ad_contest_outer div.ad_contest_glr div.ad_contest_glr_textbox {
+	height: 75px;
+	overflow: hidden;
+	position: relative;
+	margin: 0;
+	line-height: 20px;
+}
+div.ad_contest_outer div.ad_contest_glr div.ad_contest_glr_textbox div.ad_contest_glr_textbox_in {
+	padding: 0 16px;
+}
+div.ad_contest_outer div.ad_contest_glr div.ad_contest_glr_textbox div.textbox_fade {
+	position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 30px;
+    background: url(/-Engine-/SiteTemplates/igromania/images/wfade.png) repeat-x left bottom;
+    border-bottom: 1px solid #fff;
+	margin: 0;
+}
+div.ad_contest_outer div.ad_contest_glr div.ad_contest_glr_textbox  a {
+	font-weight: 600;
+}
+
+div.ad_contest_outer div.ad_contest_filter {
+	padding: 10px 0 5px 0;
+	font-size: 13px;
+    color: #808080;
+}
+div.ad_contest_outer div.ad_contest_filter a {
+	text-decoration: none;
+	color: #808080;
+	margin-right: 20px;
+}
+div.ad_contest_outer div.ad_contest_filter a.on,
+div.ad_contest_outer div.ad_contest_filter a:hover {
+	color: #f21937;
+}
+
+div.ad_contest_outer div.ad_contest_glr_box div.ad_contest_glr_tools {
+	height: 47px;
+	margin: 0;
+	line-height: 40px;
+	vertical-align: top;
+}
+div.ad_contest_outer  div.ad_contest_glr_tools div.lt_tools:hover a.nohr {
+ color: #808080;
+}
+div.ad_contest_outer div.ad_contest_glr_tools div.likes_block  {
+	float: right;
+	font-size: 12px;
+	font-weight: 700;
+	color: #808080;
+	margin: 0 16px 0 0;
+}
+
+div.ad_contest_outer div.likes_block div.like_count {
+	float: left;
+	position: relative;
+	color: #2FB414;
+	margin: 0 0 0 15px;
+}
+
+div.ad_contest_outer div.likes_block div.like_count .icon.like {
+	width: 18px;
+	height: 17px;
+	background-position: -233px 0px;
+	margin: 7px 0 0 7px;
+	vertical-align: top;
+}
+div.ad_contest_outer div.likes_block div.like_count .icon.like.on {
+	background-position: -251px 0px;
+	cursor: default;
+}
+div.ad_contest_outer  div.ad_contest_glr_tools div.lt_tools {
+	margin: 0 0 0 16px;
+	color: #808080;
+	font-size: 13px;
+	vertical-align: top;
+}
+div.ad_contest_outer  div.ad_contest_glr_tools div.lt_tools a {
+	display: inline-block;
+	color: #808080;
+	font-size: 13px;
+}
+div.ad_contest_outer  div.ad_contest_glr_tools div.lt_tools:hover a {
+	color: #f21937;
+}
+div.ad_contest_outer  div.ad_contest_glr_tools div.lt_tools .icon.vplay {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-position: -290px -115px;
+	vertical-align: top;
+	margin: 5px 5px 0 0;
+}
+div.ad_contest_outer  div.ad_contest_glr_tools div.lt_tools:hover .icon.vplay {
+	background-position: -464px -115px;
+}
+div.ad_contest_outer  div.ad_contest_glr_tools div.lt_tools .icon.vplay.inactive {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-position: -253px -115px;
+	vertical-align: top;
+	margin: 5px 5px 0 0;
+}
+
+
+/* viewer */
+div.contest_viewer {
+	position: relative;
+	width: 693px;
+	background: #fff;
+	color: #000;
+	font-size: 20px;
+	padding-top: 1px;
+}
+div.contest_viewer div.video_container {
+	margin: 13px 13px 10px 13px;
+	position: relative;
+	background: #000;
+}
+div.contest_viewer div.video_container iframe {
+	margin: 0 auto;
+	display: block;
+}
+div.contest_viewer div.pic_container {
+	margin: 13px 13px 10px 13px;
+	position: relative;
+	background: #000;
+}
+div.contest_viewer div.pic_container img {
+	margin: 0 auto;
+	display: block;
+}
+div.contest_viewer div.pic_container .ajax {
+	position: absolute;
+	width: 126px;
+	height: 22px;
+	left: 50%;
+	margin-left: -63px;
+	top: 50%;
+	margin-top: -11px;
+	background: url(/-Engine-/SiteTemplates/igromania/images/misc/szoom-ajax-loader-bar.gif) left top;
+}
+div.contest_viewer div.screen_info {
+	padding: 5px 13px 10px 13px;
+}
+div.contest_viewer div.screen_info div.contest_viewer_tools {
+	margin-bottom: 10px;
+}
+
+/* */
+div.contest_viewer div.lt_tools {
+	float: left;
+	margin: 0;
+	color: #808080;
+	font-size: 13px;
+	vertical-align: top;
+	line-height: 32px;
+}
+div.contest_viewer  div.lt_tools a {
+	display: inline-block;
+	color: #808080;
+	font-size: 13px;
+}
+div.contest_viewer div.lt_tools:hover a {
+	color: #f21937;
+}
+div.contest_viewer div.lt_tools:hover a.nohr {
+	color: #808080;
+}
+div.contest_viewer  div.lt_tools .icon.vplay {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-position: -290px -115px;
+	vertical-align: top;
+	margin: 0 5px 0 0;
+}
+div.contest_viewer   div.lt_tools:hover .icon.vplay {
+	background-position: -464px -115px;
+}
+div.contest_viewer   div.lt_tools .icon.vplay.inactive {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-position: -253px -115px;
+	vertical-align: top;
+	margin: 0 5px 0 0;
+}
+div.contest_viewer  div.lt_tools .icon.pview {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-position: -326px -115px;
+	vertical-align: top;
+	margin: 0 5px 0 0;
+}
+div.contest_viewer   div.lt_tools:hover .icon.pview {
+	background-position: -361px -115px;
+}
+
+
+/* */
+div.contest_viewer div.contest_viewer_likes {
+	text-align: center;
+	height: 26px;
+	margin: 0;
+}
+div.contest_viewer div.contest_viewer_likes div.like_count {
+	font-size: 22px;
+	font-weight: 700;
+	color: #2FB414;
+	margin: 0 0 0 15px;
+}
+
+div.contest_viewer div.contest_viewer_likes div.like_count .icon.like {
+	width: 26px;
+	height: 26px;
+	background-position: -434px -115px;
+	margin: 0 0 0 12px;	
+}
+div.contest_viewer div.contest_viewer_likes div.like_count .icon.like.on {
+	background-position: -401px -115px;
+	cursor: default;
+}
+
+/* шаринг */
+div.contest_viewer div.contest_viewer_social {
+	float: right;
+	margin: 0;
+}
+div.contest_viewer div.contest_viewer_social div.share_block {
+	
+}
+div.contest_viewer .share_block .share_link,
+div.contest_viewer .share_block .share_link:hover {
+	display: inline-block;
+	height: 26px;
+	vertical-align: top;
+	color: #fff;
+	font-size: 12px;
+	margin-right: 5px;
+}
+div.contest_viewer .share_block .share_link.vk {background: #4c75a3;}
+div.contest_viewer .share_block .share_link.fb {background: #3c5899;}
+div.contest_viewer .share_block .share_link.twit {background: #41abe1;}
+div.contest_viewer .share_block .share_link.mru {background: #168de2; display: none;}
+div.contest_viewer .share_block .share_link.ok {background: #eb712e;}
+div.contest_viewer .share_block .share_link.gplus {background: #d95032;}
+
+div.contest_viewer .share_block .share_icon {
+	float: left;
+	width: 26px;
+	height: 26px;
+	background-image: url(/-Engine-/SiteTemplates/igromania/images/share_social.png);
+	background-repeat: no-repeat;
+} 
+div.contest_viewer .share_link.vk .share_icon {background-position: 0px 0px;}
+div.contest_viewer .share_link.fb .share_icon {background-position: -26px 0px;}
+div.contest_viewer .share_link.twit .share_icon {background-position: -52px 0px;}
+div.contest_viewer .share_link.mru .share_icon {background-position: -78px 0px;}
+div.contest_viewer .share_link.ok .share_icon {background-position: -104px 0px;}
+div.contest_viewer .share_link.gplus .share_icon {background-position: -130px 0px;}
+
+div.contest_viewer .share_link .share_count {
+	display: inline-block;
+	text-align: center;
+	min-width: 20px;
+	width:  auto;
+	padding-right: 5px;
+	display: none;
+}
+div.contest_viewer .share_block .t_gray {display: none;}
+
+
+/* */
+div.contest_viewer div.screen_nav {
+	float: right;
+}
+div.contest_viewer div.screen_nav .icon.prev {
+	width: 14px;
+	height: 24px;
+	cursor: pointer;
+	background-position: -40px 0px;
+}
+div.contest_viewer div.screen_nav .icon.next {
+	width: 14px;
+	height: 24px;
+	cursor: pointer;
+	background-position: -68px 0px;
+	margin-left: 20px;
+}
+div.contest_viewer div.screen_nav .icon.prev:hover {background-position: -54px 0px;}
+div.contest_viewer div.screen_nav .icon.next:hover {background-position: -82px 0px;}
+
+div.contest_viewer div.contest_viewer_text {
+	font-size: 14px;
+	color: #000;
+	font-weight: 600;
+	margin: 0 80px 0 0;
+}
+div.contest_viewer div.contest_viewer_counter {
+	float: right;
+	font-size: 12px;
+	margin: 38px -55px 0 0;
+}
+
+/* popup maker */
+#popupMaker {
+	z-index: 90;
+}
+#popupMaker .contents {
+	position: relative;
+}
+.popupMakerFade {
+	display: none;
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background: url(/-Engine-/SiteTemplates/igromania/images/transp.png) repeat left top;
+    z-index: 89;
+}
+
+/* ==== NEW RATING ====== */
+div.page_article_content div.verdict div.rating_block1 {
+	display: grid;
+	grid-template-columns: 48%  48%;
+	grid-gap: 0 4%;
+} 
+div.page_article_content div.verdict div.rating_block1.sgl {
+	grid-template-columns: 100%;
+	grid-gap: 0 0;
+}
+div.page_article_content div.verdict div.rating_block1 div.rate_label1 {
+	margin: 0;
+}
+
+/* ==== NEWEST RATING ====== */
+div.page_article_content div.verdict div.rating_block2 {
+	margin-top: -15px;
+}
+div.page_article_content div.verdict div.rating_block2 img {
+	max-width: 100%;
+	display: block;
+}

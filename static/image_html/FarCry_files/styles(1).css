@@ -1,0 +1,187 @@
+div.cfade {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	bottom: 0;
+	background: url(/-Engine-/comments/templates/default/images/transp.png) repeat left top;
+	z-index: 1000;
+	display: none;
+}
+
+div#imc_popup {
+	position: absolute;
+	width: auto;
+	height: auto;
+	display: none;
+	z-index: 1001;
+	background-color: #FFFFFF;
+}
+div#imc_popup .title {
+    font-size: 20px;
+    text-align: center;
+    color: crimson;
+    padding: 4px;
+    background-color: bisque;
+    border-bottom: 1px solid brown;
+}
+div#imc_popup .contents {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+}
+div#imc_popup .buttons {
+	position: relative;
+	/*left: 0px;
+	bottom: 0px;
+	width: 100%;*/
+    border-top: 1px solid brown;
+}
+div#imc_popup .buttons input {
+	border: 1px solid brown;
+	color: brown;
+	background-color: #FFF;
+	padding: 4px;
+	cursor: pointer;
+	margin: 10px;
+}
+div#imc_popup .buttons input:hover {
+	background-color: #ffe2e2;
+}
+div#imc_popup .buttons .confirm {
+	float: left;
+}
+div#imc_popup .buttons .cancel {
+	float: right;
+}
+div.comment_text_overflow {
+	display: block;
+	overflow-y: hidden;
+	height: 160px;
+	position: relative;
+}
+div.comment_text_overflow:before {
+    content: "";
+    display: block;
+    position: absolute; 
+	height: 50px;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff 75%)
+}
+div.comment_text_hide {
+	display: block;
+	overflow-y: hidden;
+	height: 0px;
+}
+div.comment_text_overflow.open,
+div.comment_text_hide.open {
+	overflow-y: visible;
+	height: auto;
+}
+div.comment_text_overflow.open:before,
+div.comment_text_hide.open:before {
+	content: none;
+}
+
+/* */
+#im_comments a {
+	cursor: pointer;
+}
+.comment_modify_info {
+    font-size: 12px;
+    font-style: italic;
+    text-align: right;
+    color: gray;
+}
+
+div.comment_preview {
+	display: none;
+	border: 1px solid #dedede;
+    padding: 4px;
+}
+div#imc_popup .buttons input {
+    color: #2FB012;
+    border: 1px solid #2FB012;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    height: 27px;
+    line-height: 27px;
+    padding: 0 7px;
+}
+div#imc_popup .buttons {
+	border-top: 1px solid #dedede;
+}
+div#imc_popup input, div#imc_popup textarea,
+div#imc_popup select {
+	border: 1px solid #dedede;
+    /*padding: 0 10px;*/
+}
+div#imc_popup .title {
+	border-width: 0px;
+	background: none;
+	font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    margin: 10px 0;
+}
+div#imc_popup .contents {
+	font-size: 14px;
+    color: #000;
+}
+div#imc_popup .contents a {
+	font-size: 14px;
+    color: #000;
+    text-decoration: underline;
+}
+
+div.comment_video {
+    /*padding: 4px;*/
+    width: 98%;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 4px;
+    background-color: #FAFAFA;
+	border: 1px solid #dad5d5;
+}
+div.comment_video.youtube {
+	color: #E62117;
+}
+div.comment_video.vimeo {
+	color: #00adef;
+}
+div.comment_video.coub {
+	color: #1e39f6;
+}
+div.comment_video div {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    margin-top: 4px;
+}
+div.comment_video div iframe {
+	margin: 4px;
+}
+
+div.comment_image img {
+	max-width: 98%;
+}
+
+div.comments div.comment_responses div.comment_responses div.comment_responses div.comment_responses div.comment_responses {
+	margin-left: 0px;
+}
+div.comment_buttons {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+div.comment_notify {
+	display: inline-block;
+	color: #8C8C8C;
+}
+
+div.comment_post {
+	word-break: break-word;
+}
